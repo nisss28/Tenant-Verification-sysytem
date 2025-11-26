@@ -1,0 +1,95 @@
+/* 💼 Landlord Registration Form - Elegant Blue & Purple Theme */
+
+.landlord-container {
+  background: linear-gradient(135deg, #e8eaf6 50%, #d1c4e9 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.landlord-form {
+  background: linear-gradient(120deg, #e8eaf6 70%, #d1c4e9 100%);
+  border-radius: 20px;
+  box-shadow: 0 8px 28px rgba(103, 58, 183, 0.15);
+  padding: 38px 30px;
+  max-width: 420px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  border: 1.5px solid #b39ddb;
+  transition: all 0.3s ease;
+}
+
+.landlord-form:hover {
+  box-shadow: 0 10px 36px rgba(103, 58, 183, 0.22);
+  transform: translateY(-2px);
+}
+
+.landlord-title {
+  text-align: center;
+  color: #512da8;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.landlord-subtitle {
+  text-align: center;
+  color: #7e57c2;
+  font-size: 1rem;
+  margin-bottom: 22px;
+}
+
+.landlord-label {
+  font-size: 1rem;
+  color: #512da8;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.landlord-form input {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1.5px solid #b39ddb;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.25s, background 0.25s;
+  background: #f8f6ff;
+}
+
+.landlord-form input:focus {
+  border-color: #7e57c2;
+  background: #ede7f6;
+  box-shadow: 0 0 8px rgba(126, 87, 194, 0.2);
+}
+
+.landlord-btn {
+  background: linear-gradient(90deg, #512da8 40%, #9575cd 100%);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(81, 45, 168, 0.18);
+  transition: all 0.3s ease;
+}
+
+.landlord-btn:hover {
+  box-shadow: 0 8px 26px rgba(81, 45, 168, 0.25);
+  transform: translateY(-2px);
+  background: linear-gradient(90deg, #7e57c2 40%, #b39ddb 100%);
+}
+
+.landlord-msg {
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #4a148c;
+  margin-top: 10px;
+}
