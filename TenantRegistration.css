@@ -1,0 +1,104 @@
+/* --------------------------- Existing Form Styles --------------------------- */
+.treg-container {
+  background: linear-gradient(135deg, #e3f0ff 60%, #b3e5fc 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 0;
+}
+
+.treg-form {
+  background: linear-gradient(120deg, #e3f0ff 70%, #bbdefb 100%);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(25,118,210,0.18);
+  padding: 36px 28px;
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  border: 1.5px solid #90caf9;
+}
+
+.treg-title {
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 12px;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.treg-form input,
+.treg-form select {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1.5px solid #90caf9;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+  background: #f5faff;
+}
+
+.treg-form input:focus,
+.treg-form select:focus {
+  border: 1.5px solid #1976d2;
+  background: #e3f0ff;
+}
+
+.treg-label {
+  font-size: 1rem;
+  color: #1976d2;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.treg-btn {
+  background: linear-gradient(90deg, #1976d2 60%, #64b5f6 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(25,118,210,0.13);
+  transition: box-shadow 0.2s;
+}
+
+.treg-btn:hover {
+  box-shadow: 0 8px 32px rgba(25,118,210,0.18);
+}
+
+/* --------------------------- Tenant Card Styles --------------------------- */
+.tenant-card {
+  margin-top: 20px;
+  padding: 18px 20px;
+  border-radius: 14px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* Card Colors */
+.tenant-card.red {
+  background-color: #e74c3c; /* Criminal record */
+}
+
+.tenant-card.green {
+  background-color: #27ae60; /* Clean record */
+}
+
+.tenant-card.golden {
+  background-color: #f1c40f; /* Golden (future use) */
+}
+
+/* Optional responsive tweaks */
+@media (max-width: 500px) {
+  .tenant-card {
+    font-size: 0.95rem;
+    padding: 16px 18px;
+  }
+}
